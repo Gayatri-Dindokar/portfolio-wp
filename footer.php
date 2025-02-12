@@ -11,24 +11,20 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'portfolio' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'portfolio' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'portfolio' ), 'portfolio', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+<div class=" mt-5  container">
+<p>
+	Copyright 2025 &copy; 
+</p>
+<div class="social">
+	<a href="#" class="social-item"><i class="fa-brands fa-facebook"></i></a>
+	<a href="#" class="social-item"><i class="fa-brands fa-linkedin"></i></a>
+	<a href="#" class="social-item"><i class="fa-brands fa-whatsapp"></i></a>
+	<a href="#" class="social-item"><i class="fa-brands fa-twitter"></i></a>
+</div>
+</div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="https://kit.fontawesome.com/9e389eeb6e.js" crossorigin="anonymous"></script>
 </body>
 </html>

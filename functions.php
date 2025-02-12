@@ -149,6 +149,20 @@ function portfolio_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_scripts' );
 
+
+// Enques Javascripts
+function custom_scripts() {
+	wp_enqueue_script( 'custom-js', get_template_directory_uri() .'/js/index.js', array(), _S_VERSION, true );
+	}
+	add_action( 'wp_enqueue_scripts', 'custom_scripts' );
+	
+//Enques css
+function enque_styles() {
+	wp_enqueue_style('custom-css', get_template_directory_uri() . '/css/style.css', array(), '6.4.0', 'all');
+  }
+  add_action('wp_enqueue_scripts', 'enque_styles');
+  
+
 /**
  * Implement the Custom Header feature.
  */
