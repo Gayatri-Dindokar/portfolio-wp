@@ -1,0 +1,2 @@
+# portfolio-wp
+wordpress theme
